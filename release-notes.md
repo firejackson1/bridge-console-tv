@@ -25,3 +25,7 @@ Unofficial fan project; not affiliated with or endorsed by Star Trek or its owne
 ## Layout screenshots
 
 [Browse all eleven layouts](https://firejackson1.github.io/bridge-console-tv/#layouts), or download **BridgeConsoleTV-layout-screenshots.zip** from Assets. Native captures use a temporary arrangement of separately installed media apps; no storage or Jackson Lab store/camera apps appear.
+
+## Set as Home on onn
+
+See the [onn default-launcher guide](https://github.com/firejackson1/bridge-console-tv/blob/main/ONN-SETUP.md) for the built-in chooser, ADB connection and Home-setting commands, verification, undo and the tvQuickActions alternative.

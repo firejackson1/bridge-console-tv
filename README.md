@@ -21,3 +21,16 @@ Unofficial fan project; not affiliated with or endorsed by Star Trek or its owne
 ![Vertical Pylons](images/layout-06.png)
 
 ![Hybrid Bridge](images/layout-10.png)
+
+## Set as the Home launcher on onn
+
+1. Open Bridge **Settings → Android & device → Choose default home app** and select Bridge Console TV if Android offers the chooser.
+2. If it is unavailable, connect ADB to your own box and save the existing Home component before changing it.
+3. Set the owner-user Home activity, then verify with Android's resolver and test the physical Home button:
+
+```sh
+adb -s TV_ADDRESS shell cmd package set-home-activity --user 0 lab.jackson.lcars/.MainActivity
+adb -s TV_ADDRESS shell cmd package resolve-activity --brief -a android.intent.action.MAIN -c android.intent.category.HOME
+```
+
+Replace `TV_ADDRESS` with your own `adb devices` entry. **[Full onn guide: connection, backup, verification, undo and tvQuickActions alternative](ONN-SETUP.md).** Home-button remapping is a workaround and is not the same as changing Android's registered default launcher. Keep your original launcher installed.
