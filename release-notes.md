@@ -21,3 +21,7 @@ The underlying 0.60 development build passed 3,198 host checks and 1,064 native 
 Optional Home Assistant setup and notification access are configured locally; the APK contains no owner account configuration. See **SHA256SUMS.txt**, **third-party-notices.txt** and **Antonio-OFL.txt** in Assets.
 
 Unofficial fan project; not affiliated with or endorsed by Star Trek or its owners. Support is optional. The [download page](https://firejackson1.github.io/bridge-console-tv/#support) includes a PayPal donation button.
+
+## Layout screenshots
+
+[Browse all eleven layouts](https://firejackson1.github.io/bridge-console-tv/#layouts), or download **BridgeConsoleTV-layout-screenshots.zip** from Assets. Native captures use a temporary arrangement of separately installed media apps; no storage or Jackson Lab store/camera apps appear.
