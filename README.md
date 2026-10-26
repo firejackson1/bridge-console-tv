@@ -6,7 +6,7 @@ A free LCARS-inspired Android TV launcher. Early public preview.
 
 ![Actual Orbital layout](images/layout-03.png)
 
-Ten LCARS layouts plus a classic layout, animated starfield backgrounds/screensaver, app organization and optional Home Assistant controls. Android TV 8.0 or newer; tested on onn 4K Pro.
+Ten LCARS layouts plus a classic layout, an app drawer in every layout, animated starfield backgrounds/screensaver, app organization and optional Home Assistant controls. Android TV 8.0 or newer; tested on onn 4K Pro.
 
 Read installation instructions and development-signing migration notes on the download page. This repository hosts the public page and releases, not the development source history. No signing keys, credentials or device configuration are published here.
 

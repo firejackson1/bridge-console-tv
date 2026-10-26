@@ -1,11 +1,11 @@
-# Bridge Console TV 0.60 — Public Preview
+# Bridge Console TV 0.61 — Public Preview
 
-First public preview of the LCARS-inspired Android TV launcher.
+This preview fixes the app drawer in every layout. Select Apps to open it; Back returns focus to the Apps button.
 
 - Ten whole-screen LCARS layouts plus the classic layout.
 - Unified Orbital app slices, clear focus and directional navigation guide.
 - Animated starfields, screensaver, palettes and console lights.
-- App pinning, folders, search and recent apps.
+- App drawer, pinning, folders, search and recent apps.
 - Optional Home Assistant controls: compact reveal, then full popup on the next press.
 
 ## Install
@@ -16,7 +16,7 @@ Download **BridgeConsoleTV.apk** from Assets, transfer it to your Android TV and
 
 ## Verification and limits
 
-The underlying 0.60 development build passed 3,198 host checks and 1,064 native device checks on onn 4K Pro, including Orbital navigation, settings and Home Controls. Public release signature and checksum are separately verified. The public-key APK has not been installed over the owner's development build. Short frame samples do not establish sustained/all-speed performance. Other TV devices and third-party widget providers can differ.
+The drawer fix was tested on the development-signed build on an onn 4K Pro across all eleven layouts, with 8,164 native checks including drawer focus and Back. The 0.61 build passed 3,198 host checks; its app payload matches the public-signed APK. Public release signature and checksum are separately verified. The public-key APK has not been installed over the owner's development build. Short frame samples do not establish sustained/all-speed performance. Other TV devices and third-party widget providers can differ.
 
 Optional Home Assistant setup and notification access are configured locally; the APK contains no owner account configuration. See **SHA256SUMS.txt**, **third-party-notices.txt** and **Antonio-OFL.txt** in Assets.
 
